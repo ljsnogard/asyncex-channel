@@ -12,13 +12,13 @@ license = "MIT/Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-mm_ptr = { git = "https://github.com/ljsnogard/mm_ptr.git" }
-pincol = { git = "https://github.com/ljsnogard/pincol.git" }
+mm_ptr = { git = "https://github.com/ljsnogard/mm_ptr.git", tag = "0.1.1" }
+pincol = { git = "https://github.com/ljsnogard/pincol.git", tag = "0.1.1" }
 
 pin-project = { version = "1.1.*" }
 
 [dev-dependencies]
-core_malloc = { git = "https://github.com/ljsnogard/core_malloc.git" }
+core_malloc = { git = "https://github.com/ljsnogard/core_malloc.git", tag = "0.1.1" }
 futures-lite = { version = "2" }
 tokio = { version = "1", features = ["full"] }
 log = { version = "0.4.*" }
